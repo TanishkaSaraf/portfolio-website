@@ -12,6 +12,7 @@
     "node": ">=20"
   },
   "dependencies": {
+    "@neondatabase/serverless": "^1.2.1",
     "better-sqlite3": "^12.2.0",
     "express": "^5.1.0"
   }
