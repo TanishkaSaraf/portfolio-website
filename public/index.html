@@ -1,0 +1,461 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#F4DCCF">
+    <meta name="description" content="Tanishka Saraf: Software Developer and AI/ML Enthusiast.">
+    <title>Tanishka Saraf</title>
+
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/script.js" defer></script>
+</head>
+
+<body>
+<div class="page-shell">
+
+    <!-- NAVIGATION -->
+    <header class="site-header">
+        <a class="brand" href="#home">Tanishka Saraf<span>.</span></a>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Open navigation"
+                aria-expanded="false"
+                aria-controls="mainNav">
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="main-nav" id="mainNav">
+            <a href="#home">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a class="nav-contact" href="#contact">Contact ↗</a>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- 01. HOME -->
+        <section class="hero section" id="home">
+            <div class="hero-copy">
+
+                <h1>Tanishka<br>Saraf<span class="period">.</span></h1>
+
+                <h2 class="hero-role">
+                    Software Developer<br>
+                    <span>& AI/ML Enthusiast</span>
+                </h2>
+
+                <p class="hero-description">
+                    I’m a Computer Engineering student pursuing a B.E.
+                    with Honours in Data Science and Visualization. I’m
+                    interested in software development, data science,
+                    and building AI/ML solutions that address practical
+                    problems. Through my projects, I explore areas
+                    ranging from intelligent healthcare systems and
+                    recommendation engines to digital-twin simulations.
+                    I enjoy taking ideas from problem definition to
+                    implementation and continuously expanding my
+                    technical knowledge along the way.
+                </p>
+                  <!-- 01. HOME 
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#projects">
+                        Explore Projects ↗
+                    </a>
+                    <a class="text-link" href="#contact">
+                        Get in Touch ↗
+                    </a>
+                </div> -->
+
+                <div class="hero-socials">
+                    <a href="https://www.linkedin.com/in/tanishka-saraf"
+                       target="_blank" rel="noopener noreferrer">
+                        LinkedIn 
+                    </a>
+                    <a href="https://github.com/TanishkaSaraf"
+                       target="_blank" rel="noopener noreferrer">
+                        GitHub 
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="hero-photo">
+                <div class="portrait-frame">
+                    <img
+                    src="/images/img.png"
+                    alt="Portrait of Tanishka Saraf"
+                    >
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 02. PROJECTS -->
+        <section class="section projects-section" id="projects">
+            <div class="section-heading">
+                <h2>Projects<span>.</span></h2>
+                <p>Some of the things I've built.</p>
+            </div>
+
+            <div class="project-grid">
+
+                <article class="project-card">
+                    <div class="project-visual visual-hospital">
+                        <span class="visual-symbol">✳</span>
+                    </div>
+
+                    <div class="project-info">
+                        <h3>Health Predictor System</h3>
+                        <p class="project-description">
+                            Multi-task neural network that predicts risk of health diseases with high accuracy (Diabetes: 90%, Heart: 91%, Obesity: 95%)
+                        </p>
+                        <div class="tags">
+                            <span>Python</span>
+                            <span>TensorFlow</span>
+                            <span>Keras</span>
+                            <span>Scikit-learn</span>
+                            <span>Pandas</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" aria-label="github.com/TanishkaSaraf/HealthPredictor">
+                                GitHub 
+                            </a>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" aria-label="https://healthpredictor-bbe28cdbahgtzztx4ywvqm.streamlit.app/">
+                                Deployed using Streamlit 
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+
+                <article class="project-card">
+                    <div class="project-visual visual-books">
+                        <span class="visual-symbol">▤</span>
+                    </div>
+
+                    <div class="project-info">
+                        <h3>Book Recommendation Engine</h3>
+                        <p class="project-description">
+                            A personalized book recommendation system
+                            using Goodreads data, exploratory analysis
+                            and weighted-rating logic to surface
+                            relevant books. Collaborative filtering, hybrid recommendations and an interface are currently under development.
+                        </p>
+                        <div class="tags">
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>NumPy</span>
+                            <span>Scikit-learn</span>
+                            <span>Machine Learning</span>
+                        </div>
+                        <!--
+                        <div class="project-links">
+                            <a href="#" aria-label="Book Recommendation Engine GitHub link">
+                                GitHub ↗
+                            </a>
+                        </div> -->
+                    </div>
+                </article>
+
+
+                <article class="project-card">
+                    <div class="project-visual visual-city">
+                        <span class="visual-symbol">&lt;/&gt;</span>
+                    </div>
+
+                    <div class="project-info">
+                        <h3>Portfolio Website</h3>
+                        <p class="project-description">
+                            A responsive portfolio website built to showcase
+                            projects, technical skills and experience. Includes
+                            a functional contact form connected to an Express
+                           backend and SQLite database for storing submissions.
+                        </p>
+                        <div class="tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Node.js</span>
+                            <span>Express</span>
+                            <span>SQLite</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" aria-label="Digital Twin GitHub link">
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+
+                <article class="project-card">
+                    <div class="project-visual visual-fourth">
+                        <span class="visual-symbol">↻</span>
+                    </div>
+
+                    <div class="project-info">
+                        <h3>Snake Game</h3>
+                        <p class="project-description">
+                            A classic Snake game developed using Java, Swing GUI
+                            and Java 2D graphics. Demonstrates object-oriented
+                            programming and graphical user interface development.
+                        </p>
+                        <div class="tags">
+                            <span>Java</span>
+                            <span>Swing GUI</span>
+                            <span>OOP</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" aria-label="https://github.com/TanishkaSaraf/Snake-Game">
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+
+        <!-- 03. SKILLS -->
+        <section class="section skills-section" id="skills">
+            <div class="section-heading">
+                <h2>Technical Skills<span>.</span></h2>
+            </div>
+
+            <div class="skills-grid">
+
+                <div class="skill-group">
+                    <h3>Programming Languages</h3>
+                    <p>Python · Java · JavaScript</p>
+                </div>
+
+                <div class="skill-group">
+                    <h3>Frontend Development</h3>
+                    <p>React</p>
+                </div>
+
+                <div class="skill-group">
+                    <h3>Backend & APIs</h3>
+                    <p>FastAPI · REST APIs</p>
+                </div>
+
+                <div class="skill-group">
+                    <h3>Databases</h3>
+                    <p>MySQL · PostgreSQL</p>
+                </div>
+
+                <div class="skill-group">
+                    <h3>Data Science & Visualization</h3>
+                    <p>NumPy · Pandas · Matplotlib · Seaborn</p>
+                </div>
+
+                <div class="skill-group">
+                    <h3>Machine Learning & Deep Learning</h3>
+                    <p>Scikit-learn · TensorFlow · Keras · PyTorch</p>
+                    <p class="skill-detail">
+                        Neural Network & CNN Design and Implementation
+                    </p>
+                </div>
+
+                <div class="skill-group">
+                    <h3>AI Frameworks</h3>
+                    <p>LangChain · LangGraph</p>
+                </div>
+
+                <div class="skill-group">
+                    <h3>Developer Tools</h3>
+                    <p>Git · GitHub</p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- 04. EXPERIENCE -->
+        <section class="section experience-section" id="experience">
+            <div class="section-inner">
+
+                <div class="experience-layout">
+                    <div class="experience-heading">
+                        <h2>Experience<span>.</span></h2>
+                    </div>
+
+                    <div class="experience-content">
+                        <div class="experience-entry">
+                            <h3>Data Science and ML Intern</h3>
+                            <p class="experience-company">
+                                Sanyu Infotech Pvt. Ltd.
+                            </p>
+                            <p class="experience-duration">
+                                January 2026 - February 2026
+                            </p>
+
+                            <p class="experience-description">
+                                Developed a multi-task neural network that predicts risk percentage for 3 diseases: obesity, heart disease and diabetes, learnt about data preprocessing, weights and biases, neural network layers and architecture, activation functions, BatchNorm and dropout, deployment via Streamlit.
+                            </p>
+
+                            <div class="tags">
+                                <span>Python</span>
+                                <span>NumPy</span>
+                                <span>Pandas</span>
+                                <span>Matplotlib</span>
+                                <span>Scikit-learn</span>
+                                <span>TensorFlow</span>
+                                <span>Keras</span>
+                                <span>Git & GitHub</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- 05. EDUCATION -->
+        <section class="section education-section" id="education">
+            <div class="section-inner education-layout">
+
+                <div>
+                    <h2>Education<span>.</span></h2>
+                </div>
+
+                <div class="education-content">
+                    <h3>B.E. (Computer)</h3>
+
+                    <h4>
+                        Honours in Data Science and Visualization
+                    </h4>
+
+                    <p>RMD Sinhgad School of Engineering, Pune</p>
+
+                    <span class="education-duration">
+                        2023 – 2027
+                    </span>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- 06. CONTACT -->
+        <section class="section contact-section" id="contact">
+            <div class="section-inner">
+
+                <div class="contact-layout">
+
+                    <div class="contact-copy">
+                        <h2>Get in Touch!</h2>
+
+                        <div class="contact-details">
+                            <div>
+                                <span class="contact-label">EMAIL</span>
+                                <a href="mailto:tanusaraf.777@gmail.com">
+                                    tanusaraf.777@gmail.com
+                                </a>
+                            </div>
+
+                            <div>
+                                <span class="contact-label">LINKEDIN</span>
+                                <a href="https://www.linkedin.com/in/tanishka-saraf"
+                                   target="_blank" rel="noopener noreferrer">
+                                    LinkedIn Profile
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <form class="contact-form" id="contactForm">
+
+                        <input type="hidden" name="subject"
+                               value="Portfolio website inquiry">
+
+                        <div class="form-row">
+                            <label for="name">NAME</label>
+                            <input
+                                id="name"
+                                name="name"
+                                type="text"
+                                maxlength="80"
+                                placeholder="Your name"
+                                autocomplete="name"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-row">
+                            <label for="email">EMAIL</label>
+                            <input
+                                id="email"
+                                name="email"
+                                type="email"
+                                maxlength="120"
+                                placeholder="Your email address"
+                                autocomplete="email"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-row">
+                            <label for="message">MESSAGE</label>
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="5"
+                                maxlength="3000"
+                                placeholder="Write your message"
+                                required
+                            ></textarea>
+                        </div>
+
+                        <!-- Spam protection -->
+                        <div class="honeypot" aria-hidden="true">
+                            <label for="website">Leave empty</label>
+                            <input
+                                id="website"
+                                name="website"
+                                type="text"
+                                tabindex="-1"
+                                autocomplete="off"
+                            >
+                        </div>
+
+                        <div class="form-footer">
+                            <p class="form-status" id="formStatus"
+                               role="status" aria-live="polite"></p>
+
+                            <button class="button button-submit"
+                                    type="submit" id="submitButton">
+                                Send Message
+                            </button>
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <a class="brand" href="#home">Tanishka Saraf<span>.</span></a>
+        <p>© <span id="year"></span> Tanishka Saraf</p>
+    </footer>
+
+</div>
+</body>
+</html>
